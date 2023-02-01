@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @GetMapping("/")
     public String hello(){
-        return "Hello, Spring! Test Message :-)";
+        return "<div style=\"border: 1px solid #000; height: 500px;\" >Hello, Spring! Test Message :-)</div>";
+
     }
 }
